@@ -1,17 +1,18 @@
 import { useNavigate } from "react-router-dom";
+import "../styles/common.css";
 
 function Landing() {
   const navigate = useNavigate();
 
   return (
-    <div className="container">
-      <div className="card landing-card">
+    <div className="container bottom">
+      <div>
         <h1>Welcome to PopX</h1>
 
         <p>
           Lorem ipsum dolor sit amet,
           <br />
-          consectetur adipiscing elit.
+          consectetur adipiscing elit,
         </p>
 
         <button
